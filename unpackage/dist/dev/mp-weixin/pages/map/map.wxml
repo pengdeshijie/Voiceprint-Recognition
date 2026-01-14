@@ -1,0 +1,1 @@
+<view><map class="map-container" latitude="{{a}}" longitude="{{b}}" markers="{{c}}" scale="{{12}}" show-location enable-traffic></map></view>

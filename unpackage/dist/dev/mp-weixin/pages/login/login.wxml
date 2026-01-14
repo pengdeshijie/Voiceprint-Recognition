@@ -1,0 +1,1 @@
+<view class="container"><image class="logo" src="{{a}}"></image><view class="title">欢迎回来</view><input class="input" placeholder="请输入用户名" value="{{b}}" bindinput="{{c}}"/><input class="input" type="password" placeholder="请输入密码" value="{{d}}" bindinput="{{e}}"/><button type="primary" class="btn" bindtap="{{f}}">登录</button><view class="link" bindtap="{{g}}">没有账号？去注册</view></view>

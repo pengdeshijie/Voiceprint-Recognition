@@ -1,0 +1,40 @@
+
+/* 保持原有样式，为了美观不要动 */
+.container { padding: 20px; background-color: #f6f7f9; min-height: 100vh;
+}
+.header-title { font-size: 22px; font-weight: bold; margin-bottom: 20px; color: #333;
+}
+.card { 
+  background-color: #fff; padding: 15px; margin-bottom: 15px; border-radius: 12px; 
+  display: flex; align-items: center; box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.card-img { 
+  width: 80px; height: 80px; border-radius: 8px; background-color: #eee; 
+  flex-shrink: 0; margin-right: 15px;
+}
+.card-content { 
+  flex: 1; display: flex; flex-direction: column; justify-content: space-between; 
+  height: 80px; padding: 2px 0; overflow: hidden;
+}
+.card-title { 
+  font-size: 18px; font-weight: bold; color: #333; 
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.card-desc { 
+  font-size: 13px; color: #666; 
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.card-time { font-size: 12px; color: #999; margin-top: auto;
+}
+.delete-btn { padding: 10px; opacity: 0.6; font-size: 18px;
+}
+.empty-tip { 
+  display: flex; flex-direction: column; align-items: center; justify-content: center; 
+  color: #999; margin-top: 100px;
+}
+.add-btn { 
+  position: fixed; bottom: 80px; right: 30px; z-index: 99; 
+  width: 55px; height: 55px; background: linear-gradient(135deg, #007AFF, #00C6FF); 
+  border-radius: 50%; display: flex; align-items: center; justify-content: center; 
+  color: #fff; font-size: 32px; box-shadow: 0 4px 15px rgba(0,122,255,0.4);
+}
