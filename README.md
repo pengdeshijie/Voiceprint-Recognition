@@ -1,4 +1,3 @@
-# Voiceprint-Recognition
 ## backend使用说明
 
 ### 1. 项目结构
