@@ -1,0 +1,5 @@
+
+.map-container {
+  width: 100%;
+  height: 100vh; /* 占满全屏高度 */
+}

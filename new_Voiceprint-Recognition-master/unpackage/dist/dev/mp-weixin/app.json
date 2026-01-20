@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/store/store",
+    "pages/map/map",
+    "pages/profile/profile",
+    "pages/edit/edit",
+    "pages/voice/voice",
+    "pages/login/login",
+    "pages/register/register"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Bird Watcher",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#2ecc71",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home-active.png"
+      },
+      {
+        "pagePath": "pages/store/store",
+        "text": "仓库",
+        "iconPath": "static/store.png",
+        "selectedIconPath": "static/store-active.png"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "text": "地图",
+        "iconPath": "static/map.png",
+        "selectedIconPath": "static/map-active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "static/user.png",
+        "selectedIconPath": "static/user-active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

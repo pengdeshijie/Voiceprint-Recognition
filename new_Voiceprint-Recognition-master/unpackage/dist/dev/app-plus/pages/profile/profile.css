@@ -1,0 +1,56 @@
+
+/* 容器背景色 */
+.center-container {
+  min-height: 100vh;
+  background-color: #f6f7f9;
+}
+
+/* 头部样式 */
+.header {
+  background-color: #007AFF; 
+  padding: 50px 20px;
+  display: flex; 
+  align-items: center; /* 让头像和文字垂直居中 */
+}
+.avatar { 
+  width: 64px; 
+  height: 64px; 
+  border-radius: 50%; 
+  background: #fff; 
+  margin-right: 15px; 
+  border: 2px solid rgba(255,255,255,0.3);
+}
+.user-info { 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; /* 确保文字居中 */
+}
+
+/* 主要文字（ID） */
+.main-id { 
+  color: #fff; 
+  font-size: 24px; /* 稍微调大了一点点，更显眼 */
+  font-weight: bold; 
+  letter-spacing: 1px;
+}
+
+/* 菜单样式 */
+.menu-list { 
+  margin-top: 20px; 
+  background: #fff;
+}
+.menu-item {
+  padding: 18px 20px; 
+  border-bottom: 1px solid #f0f0f0;
+  display: flex; 
+  justify-content: space-between;
+  font-size: 16px;
+  color: #333;
+}
+.menu-item:active {
+  background-color: #f9f9f9;
+}
+.arrow { 
+  color: #ccc; 
+  font-weight: bold;
+}
