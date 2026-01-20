@@ -12,7 +12,8 @@ bird_backend/
 http://127.0.0.1:8000/docs
 
 前端连接 (UniApp)
-在 HBuilderX 项目管理器中，找到我们在上一条回答中创建的 common/config.js 文件。
+在 HBuilderX 项目管理器中，找到common/config.js 文件。
 修改 IP：将 const IP = "..." 中的地址改为电脑 IPv4 地址。
 // common/config.js
+
 const IP = "192.168.1.5"; // <--- 这里一定要改！不要用 localhost
