@@ -20,7 +20,7 @@ import auth
 models.Base.metadata.create_all(bind=database.engine)
 
 # 2. 创建 FastAPI 应用实例
-app = FastAPI(title="自然观测站后端 API", description="UniApp Bird Watcher Backend")
+app = FastAPI(title="鸟类声纹识别后端 API", description="Bird Watcher Backend")
 
 # 3. 创建文件上传目录
 os.makedirs("uploads/images", exist_ok=True)
